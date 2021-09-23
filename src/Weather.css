@@ -1,0 +1,20 @@
+.Weather h1 {
+  font-size: 60px;
+}
+
+.Weather .today-temp {
+  font-size: 50px;
+}
+
+.Weather .units {
+  font-size: 20px;
+}
+
+.Weather .date {
+  list-style: none;
+}
+
+.Weather .current-conditions {
+  list-style: none;
+  padding: 0;
+}

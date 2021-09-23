@@ -1,0 +1,17 @@
+.WeatherInfo h1 {
+  font-size: 60px;
+}
+
+.WeatherInfo .today-temp {
+  font-size: 80px;
+  line-height: 0.8;
+}
+
+.WeatherInfo .units {
+  font-size: 20px;
+}
+
+.WeatherInfo .current-conditions {
+  list-style: none;
+  padding: 0;
+}

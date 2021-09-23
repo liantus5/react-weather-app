@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Kazan"/>
+        <div className="Weather form-control mt-5 p-0">
+          <Weather defaultCity="Kazan" />
+        </div>
       </div>
     </div>
   );

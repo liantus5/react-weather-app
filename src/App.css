@@ -1,6 +1,8 @@
 .App {
   max-width: 600px;
+  min-width: 600px !important;
   display: block;
   margin: 0 auto;
+  font-family: "Homemade Apple", cursive;
+  
 }
-

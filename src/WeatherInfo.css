@@ -3,12 +3,17 @@
 }
 
 .WeatherInfo .today-temp {
-  font-size: 80px;
-  line-height: 0.8;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100px;
+  line-height: 0.4;
 }
 
-.WeatherInfo .units {
-  font-size: 20px;
+.WeatherInfo .units,
+.units a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
 }
 
 .WeatherInfo .current-conditions {

@@ -4,5 +4,8 @@
   display: block;
   margin: 0 auto;
   font-family: "Homemade Apple", cursive;
-  
+}
+
+.App footer {
+  font-size: 10px;
 }

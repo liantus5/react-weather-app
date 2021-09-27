@@ -9,6 +9,14 @@ function App() {
           <Weather defaultCity="Kazan" />
         </div>
       </div>
+      <footer class="text-center">
+        This project was coded by{" "}
+        <a href="https://lianaginiat.com/">Liana Giniatullina</a> and is{" "}
+        <a href="https://github.com/liantus5/react-weather-app">
+          open-sourced on GitHub
+        </a>
+        .
+      </footer>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import "./App.css";
 import Weather from "./Weather";
-import WeatherForecast from "./WeatherForecast";
 
 function App() {
   return (
@@ -9,11 +8,6 @@ function App() {
         <div className="Weather form-control mt-5 p-4 shadow">
           <Weather defaultCity="Kazan" />
           <div class="d-flex justify-content-evenly">
-            <WeatherForecast />
-            <WeatherForecast />
-            <WeatherForecast />
-            <WeatherForecast />
-            <WeatherForecast />
           </div>
         </div>
       </div>

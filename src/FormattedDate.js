@@ -41,7 +41,7 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
   return (
-    <div className="FormattedDate">
+    <div className="FormattedDate text-end">
       <ul className="date">
         <li className="text-capitalize">
           {month} {date}, {year}

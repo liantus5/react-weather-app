@@ -35,7 +35,6 @@ export default function WeatherInfo(props) {
             <FormattedDate date={props.data.date} />
           </div>
         </div>
-
         <div className="row">
           <div className="col-6">
             <ul className="current-conditions">
@@ -56,7 +55,7 @@ export default function WeatherInfo(props) {
               </span>
             </div>
           </div>
-          <div className="col-6 d-flex justify-content-center">
+          <div className="col-6 d-flex justify-content-center align-items-center">
             <WeatherIcon code={props.data.icon} width={180} />
           </div>
         </div>
@@ -67,13 +66,12 @@ export default function WeatherInfo(props) {
       <div className="WeatherInfo">
         <div className="row d-flex align-items-start mt-4">
           <div className="col-6">
-            <h1>{props.data.city}</h1>
+            <h1 class="text-break">{props.data.city}</h1>
           </div>
           <div className="col-6">
             <FormattedDate date={props.data.date} />
           </div>
         </div>
-
         <div className="row">
           <div className="col-6">
             <ul className="current-conditions">
@@ -96,8 +94,8 @@ export default function WeatherInfo(props) {
               </span>
             </div>
           </div>
-          <div className="col-6 d-flex justify-content-center">
-            <WeatherIcon code={props.data.icon} />
+          <div className="col-6 d-flex justify-content-center align-items-center">
+            <WeatherIcon code={props.data.icon} width={180} />
           </div>
         </div>
       </div>

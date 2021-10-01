@@ -29,7 +29,7 @@ export default function WeatherInfo(props) {
       <div className="WeatherInfo">
         <div className="row d-flex align-items-start mt-4">
           <div className="col-6">
-            <h1 class="text-justify">{props.data.city}</h1>
+            <h1 className="text-justify">{props.data.city}</h1>
           </div>
           <div className="col-6">
             <FormattedDate date={props.data.date} />

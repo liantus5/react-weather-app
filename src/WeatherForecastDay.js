@@ -12,12 +12,12 @@ export default function WeatherForecastDay(props) {
   }
 
   return (
-    <div class="text-center">
+    <div className="text-center">
       <div>{day()}</div>
       <WeatherIcon code={`${props.forecast.weather[0].icon}`} width={60} />
-      <div class="forecast-temps">
+      <div className="forecast-temps">
         <span>{Math.round(props.forecast.temp.max)}° </span>{" "}
-        <span class="text-muted">{Math.round(props.forecast.temp.min)}°</span>
+        <span className="text-muted">{Math.round(props.forecast.temp.min)}°</span>
       </div>
     </div>
   );

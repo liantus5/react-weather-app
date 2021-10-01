@@ -35,13 +35,13 @@ export default function Weather(props) {
   function accessLocation(position) {
     let lat = position.coords.latitude;
     let lon = position.coords.longitude;
-    let apiKey = `e443ae2d9c3fd770036c3beff05b41cf`;
+    let apiKey = `8d6f45348f7c55ee8c93612da2d88459`;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
   function search() {
-    let apiKey = `e443ae2d9c3fd770036c3beff05b41cf`;
+    let apiKey = `8d6f45348f7c55ee8c93612da2d88459`;
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(url).then(handleResponse);
   }

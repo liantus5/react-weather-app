@@ -7,11 +7,11 @@ function App() {
       <div className="container">
         <div className="Weather form-control mt-5 p-4 shadow">
           <Weather defaultCity="Kazan" />
-          <div class="d-flex justify-content-evenly">
+          <div className="d-flex justify-content-evenly">
           </div>
         </div>
       </div>
-      <footer class="text-center">
+      <footer className="text-center">
         This project was coded by{" "}
         <a href="https://lianaginiat.com/">Liana Giniatullina</a> and is{" "}
         <a href="https://github.com/liantus5/react-weather-app">

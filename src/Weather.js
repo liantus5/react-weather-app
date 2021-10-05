@@ -3,7 +3,6 @@ import axios from "axios";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import WeatherInfo from "./WeatherInfo";
-import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -70,8 +69,7 @@ export default function Weather(props) {
             <FontAwesomeIcon icon={faMapMarkerAlt} />
           </button>
         </form>
-        <WeatherInfo data={weatherResponse} />
-        <WeatherForecast coords={weatherResponse.coords} />
+        <WeatherInfo data={weatherResponse}  />
       </div>
     );
   } else {

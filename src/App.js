@@ -7,8 +7,7 @@ function App() {
       <div className="container">
         <div className="Weather form-control mt-5 p-4 shadow">
           <Weather defaultCity="Kazan" />
-          <div className="d-flex justify-content-evenly">
-          </div>
+          <div className="d-flex justify-content-evenly"></div>
         </div>
       </div>
       <footer className="text-center">
@@ -18,6 +17,9 @@ function App() {
           open-sourced on GitHub
         </a>
         .
+        <br />
+        You can check out my dictionary project{" "}
+        <a href="https://clever-euclid-7fc23a.netlify.app/">here</a>
       </footer>
     </div>
   );
